@@ -21,7 +21,7 @@ typedef OnVPNStatusChanged = Function(String status);
 const String _profileLoaded = "profileloaded";
 const String _profileLoadFailed = "profileloadfailed";
 const String _connectionUpdate = 'connectionUpdate';
-
+//vpn
 class FlutterOpenvpn {
   static const MethodChannel _channel = const MethodChannel('flutter_openvpn');
   static OnProfileStatusChanged _onProfileStatusChanged;
